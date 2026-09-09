@@ -4,3 +4,17 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.hero .col img {
+    width: 500px;
+}
+
+.about .col img{
+    width: 50%;
+}
+
+@media screen and (max-width: 510) {
+    .hero .col img {
+        width: 100%;
+    }
+}

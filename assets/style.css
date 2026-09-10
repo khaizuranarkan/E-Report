@@ -3,6 +3,16 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
+}
+
+.kategori {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+#recent {
+    margin-top: 100px;
 }
 
 .hero .col img {
@@ -14,6 +24,7 @@ body{
 }
 
 @media screen and (max-width: 510) {
+
     .hero .col img {
         width: 100%;
     }

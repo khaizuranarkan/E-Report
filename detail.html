@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | E-Report</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/Logo.jpg"
+      type="image/x-icon"
+    />
+
+    <!-- css bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- animate style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- cdn aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-primary-subtle py-4 animate__animated animate__fadeInDown"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/images/Logo.jpg"
+            alt="Logo"
+            width="30"
+            class="d-inline-block align-text-top rounded"
+          />
+          <span class="fw-bold text-primary">E-Report</span>
+        </a>
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-3 pt-3 px-4 pt-lg-0 px-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-primary active"
+                aria-current="page"
+                href="index.html#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="index.html#service"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="index.html#recent"
+                >Recent</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="index.html#FAQ">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-8">
+          <h1 class="fw-bold text-primary-emphasis">Laporan AC panas</h1>
+          <p class="text-secondary">
+            By <a class="text-decoration-none fw-semibold" href="">Dimas</a> | 1
+            hari yang lalu
+          </p>
+          <div style="height: 400px; overflow: hidden">
+            <img
+              class="img-fluid rounded shadow-sm"
+              src="./assets/images/ac.jpg"
+              alt=""
+            />
+          </div>
+
+          <p class="mt-4 lh-lg">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nam
+            necessitatibus exercitationem voluptate atque quo! Repellendus rerum
+            ullam ipsum sit sint ad voluptatum quasi ipsa quae. Aperiam,
+            laboriosam iste. Temporibus?
+          </p>
+          <blockquote
+            class="border-start border-primary border-3 p-3 text-secondary fst-italic"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
+            inventore labore autem vero dolore officia laboriosam consectetur
+            provident dicta reprehenderit!
+          </blockquote>
+          <p class="lh-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            corrupti, nulla accusamus voluptate tempora cum illum officiis nemo
+            veniam a!
+          </p><hr>
+
+          <h4 class="fw-semibold text-primary-emphasis">Komentar</h4>
+          <form action="">
+            <div>
+                <textarea  class="form-control shadow-sm" rows="4" placeholder="komentar..."></textarea>
+            </div>
+            <button class="btn btn-primary mt-3">
+                Kirim <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+        <div class="col-4">
+            <nav class="mt-3" aria-label="breadcrumb">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="report.html">All Reports</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Laporan AC panas</li>
+                    </ol>
+                </nav>
+            </nav>
+
+            <div class="card mt-5">
+                <div class="card-header fw-bold">
+                    Laporan serupa
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fa-solid fa-chevron-right text-primary me-2"></i>Laporan Air mati</li>
+                    <li class="list-group-item"><i class="fa-solid fa-chevron-right text-primary me-2"></i>Laporan Wifi lemah</li>
+                    <li class="list-group-item"><i class="fa-solid fa-chevron-right text-primary me-2"></i>Laporan Kebersihan</li>
+                </ul>
+            </div>
+            <div class="card mt-4">
+                <div class="card-header fw-bold">
+                    Kategori
+                </div>
+                <div class="card-body">
+                    <span class="badge text-bg-primary p-2">Laporan</span>
+                    <span class="badge text-bg-warning p-2">Fasilitas</span>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer
+      data-aos="fade-left"
+      class="bg-primary-subtle align-items-center taxt-lg-start mt-5 p-0"
+    >
+      <div class="container">
+        <div class="row justify-content-between row-gap-4">
+          <div class="col-md-4 text-primary mt-4">
+            <div
+              class="d-flex gap-3 align-items-center justify-content-center justify-content-lg-start"
+            >
+              <img
+                src="./assets/images/Logo.jpg"
+                alt="logo"
+                width="30"
+                class="d-inline-block align-text-top rounded"
+              />
+              <h3 class="fw-bold m-0">E-Report</h3>
+            </div>
+            <p class="lh-lg opacity-75 mt-3">
+              Sampaikan setiap kekurangan sarana dan prasarana sekolah secara
+              transparan. Laporan Anda akan ditindaklanjuti untuk perbaikan yang
+              lebih baik.
+            </p>
+          </div>
+          <div class="col-md-2 d-flex flex-column text-primary gap-2 mt-4">
+            <h4 class="fw-bold mb-3">Menu</h4>
+            <a href="index.html" class="text-decoration-none opacity-75"
+              >Home</a
+            >
+            <a href="index.html#about" class="text-decoration-none opacity-75"
+              >About</a
+            >
+            <a
+              href="index.html#services"
+              class="text-decoration-none opacity-75"
+              >Services</a
+            >
+            <a href="index.html#contact" class="text-decoration-none opacity-75"
+              >Contact</a
+            >
+            <a href="index.html#FAQ" class="text-decoration-none opacity-75"
+              >FAQ</a
+            >
+          </div>
+          <div class="col-md-4 d-flex flex-column text-primary gap-2 mt-4">
+            <h4 class="fw-bold mb-3">Contact</h4>
+            <a
+              target="_blank"
+              href=""
+              class="text-decoration-none opacity-75 d-block mb-2"
+            >
+              <i class="fa-solid fa-envelope"></i>
+              ereport@gmail.com
+            </a>
+            <a
+              target="_blank"
+              href="https://wa.me/6285693399010"
+              class="text-decoration-none opacity-75 d-block mb-2"
+            >
+              <i class="fa-solid fa-envelope"></i>
+              085693399010
+            </a>
+            <a
+              target="_blank"
+              href=""
+              class="text-decoration-none opacity-75 d-block mb-2"
+            >
+              <i class="fa-solid fa-envelope"></i>
+              Jl. Raya Cibubur No. 10, Jakarta Timur
+            </a>
+          </div>
+        </div>
+
+        <div class="copyright text-center py-3 mt-4 text-primary opacity-75">
+          <p class="m-0">
+            &copy; Copyright by <span class="fw-bold">Me</span> 2026, All right
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
